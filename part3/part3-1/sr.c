@@ -400,7 +400,7 @@ int receiver(int port, int window_size, const char *recv_dir, const char *log_fi
                         break;
                     }
 					
-					// deal with output filename
+		    // deal with output filename
                     char *file_i_str = malloc(sizeof(int) + 1);
                     memset(file_i_str, 0, sizeof(int) + 1);
                     sprintf(file_i_str, "%d", file_i);
